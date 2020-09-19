@@ -1,0 +1,33 @@
+/*
+colours:
+LIGHT GREEN = #19A8A7
+LIGHT GREEN/gray = #29434F
+LIGHT BLUE/green = #43525D
+WHITE = #ffffff
+DARK GRAY = #333333
+*/
+
+
+.flex-container {
+    display: flex;
+    background-color: #ffffff;
+  }
+  
+  .flex-container > .LeftBackDrop {
+    background-color: #43525D;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container > .CenterTopDrop {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container > .RightBackDrop {
+    background-color: #43525D;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }

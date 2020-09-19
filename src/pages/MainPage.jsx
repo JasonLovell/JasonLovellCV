@@ -5,6 +5,9 @@ import './MainPage.css';
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
 import ContactPage from './ContactPage';
+import ContactMe from '../components/ContactMe';
+import CvSection from '../components/CvSection';
+import ProfileTop from '../components/ProfileTop';
 
 function MainPage() {
   return (
@@ -18,11 +21,17 @@ function MainPage() {
         </Switch>
 
         <div>
-        <div class="flex-container TopSectionOne">
-          <div className="LeftBackDrop">1</div>
-          <div className="CenterTopDrop">2</div>
-          <div className="RightBackDrop">3</div>
-        </div>
+          <div class='flex-container'>
+            <div className='LeftBackDrop'>
+              <ContactMe />
+            </div>
+            <div className='CenterTopDrop'>
+              <CvSection />
+            </div>
+            <div className='RightBackDrop'>
+              <ProfileTop />
+            </div>
+          </div>
         </div>
       </Router>
     </React.Fragment>

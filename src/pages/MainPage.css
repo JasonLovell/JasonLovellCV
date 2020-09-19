@@ -7,27 +7,34 @@ WHITE = #ffffff
 DARK GRAY = #333333
 */
 
-
 .flex-container {
-    display: flex;
-    background-color: #ffffff;
-  }
-  
-  .flex-container > .LeftBackDrop {
-    background-color: #43525D;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-  }
-  .flex-container > .CenterTopDrop {
-    background-color: #ffffff;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-  }
-  .flex-container > .RightBackDrop {
-    background-color: #43525D;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.flex-container > .LeftBackDrop {
+  background-color: #43525d;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.flex-container > .CenterTopDrop {
+  background-color: #ffffff;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.flex-container > .RightBackDrop {
+  background-color: #ffffff;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+}

@@ -1,11 +1,14 @@
 import React from 'react';
+import logo from './assets/logoTwo.png';
+import './NavigationBar.css'
 import { Nav, Navbar } from 'react-bootstrap';
 
 function NavigationBar() {
   return (
-    <div>
+    <div className="NavigationBar">
       <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
-        <Navbar.Brand href='#home'>React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href='#home'><img src={logo} alt="Logo" width="50" />          
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mr-auto'>
@@ -14,6 +17,7 @@ function NavigationBar() {
             <Nav.Link href='./ContactPage'>Contact Page</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        
       </Navbar>
     </div>
   );

@@ -1,0 +1,15 @@
+.SectionBox {
+  margin: auto;
+}
+
+.CvLogo {
+  margin-left: -150px;
+  margin-top: 20px;
+}
+
+.CvText {
+  margin-right: -110px;
+  margin-top: -115px;
+  font-size: 28px;
+  font-weight: 800;
+}

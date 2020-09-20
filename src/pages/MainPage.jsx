@@ -19,18 +19,15 @@ function MainPage() {
           <Route path='/AboutPage' component={AboutPage} />
           <Route path='/ContactPage' component={ContactPage} />
         </Switch>
-
-        <div>
-          <div class='flex-container'>
-            <div className='LeftBackDrop'>
-              <ContactMe />
-            </div>
-            <div className='CenterTopDrop'>
-              <CvSection />
-            </div>
-            <div className='RightBackDrop'>
-              <ProfileTop />
-            </div>
+        <div className='section group'>
+          <div className='col span_1_of_3 leftContact'>
+            <ContactMe />
+          </div>
+          <div className='col span_1_of_3 middleContact'>
+            <CvSection />
+          </div>
+          <div className='col span_1_of_3 rightContact'>
+            <ProfileTop />
           </div>
         </div>
       </Router>

@@ -7,34 +7,80 @@ WHITE = #ffffff
 DARK GRAY = #333333
 */
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #ffffff;
-  margin-top: 10px;
-  padding: 2px;
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 0%;
+}
+.col:first-child {
+  margin-left: 0;
 }
 
-.flex-container > .LeftBackDrop {
-  background-color: #43525d;
-  width: 500px;
-  height: 200px;
-  margin: auto;
-  padding: 20px;
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content: '';
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 */
 }
 
-.flex-container > .CenterTopDrop {
-  background-color: #ffffff;
-  width: 500px;
-  height: 200px;
-  margin: auto;
-  padding: 20px;
+/*  GRID OF THREE  */
+.span_3_of_3 {
+  width: 100%;
+}
+.span_2_of_3 {
+  width: 66.66%;
+}
+.span_1_of_3 {
+  width: 33.33%;
 }
 
-.flex-container > .RightBackDrop {
+/* Contact Section Design*/
+.leftContact {
+  background-color: #19a8a7;
+  height: 250px;
+}
+
+.middleContact {
   background-color: #ffffff;
-  width: 500px;
-  height: 200px;
-  margin: auto;
-  padding: 20px;
+  height: 250px;
+}
+
+.rightContact {
+  background-color: #ffffff;
+  height: 250px;
+}
+
+/* Statement Section Design*/
+.leftStatement {
+  background-color: #19a8a7;
+  height: 250px;
+}
+
+.middleStatement {
+  background-color: #19a8a7;
+  height: 250px;
+}
+
+.rightStatement {
+  background-color: #19a8a7;
+  height: 250px;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 680px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+  .span_3_of_3,
+  .span_2_of_3,
+  .span_1_of_3 {
+    width: 100%;
+  }
 }

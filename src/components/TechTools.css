@@ -11,13 +11,18 @@
   text-align: left;
 }
 
-ul {
+table {
+  text-align: left;
+  font-weight: 600;
+}
+
+.ul {
   text-align: left;
   font-size: 0.7em;
   width: 350px;
 }
 
-li {
+.li {
   margin: 0 80px 0;
   font-weight: 600;
   margin-left: 35px;

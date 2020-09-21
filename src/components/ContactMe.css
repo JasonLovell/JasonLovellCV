@@ -1,18 +1,5 @@
-section {
+.ContactBlock {
   margin: 10% auto;
-}
-
-.table {
-  display: table;
-}
-
-li {
-  list-style-type: none;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
 }
 
 .itemIcon {

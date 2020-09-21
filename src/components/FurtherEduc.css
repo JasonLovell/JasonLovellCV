@@ -1,0 +1,16 @@
+.EduBlock {
+  padding: 70px;
+}
+
+.ItemIcon {
+  border-radius: 50%;
+  background-color: #000;
+  border: 9px solid #000;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.EduTitle {
+  font-weight: 800;
+  font-size: 1.2em;
+}

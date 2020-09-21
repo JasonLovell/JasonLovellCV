@@ -3,6 +3,7 @@ import './TechTools.css';
 
 function TechTools() {
   return (
+    <React.Fragment>
     <div className='TechSection'>
       <p className='TechTitle'>Technology, software and tooling experience</p>
       <table>
@@ -34,6 +35,7 @@ function TechTools() {
         etc.
       </p>
     </div>
+    </React.Fragment>
   );
 }
 

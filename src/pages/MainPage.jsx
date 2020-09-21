@@ -12,6 +12,7 @@ import JldLink from '../components/JldLink';
 import NameTitle from '../components/NameTitle';
 import StatementText from '../components/StatementText';
 import TechTools from '../components/TechTools';
+import FurtherEduc from '../components/FurtherEduc';
 
 function MainPage() {
   return (
@@ -40,13 +41,15 @@ function MainPage() {
           <div class='NameText'>
             <NameTitle />
           </div>
-          <div class='ClearGreen'>ClearGreen</div>
+          <div class='ClearGreen'></div>
           <div class='StatementText'>
             <StatementText />
           </div>
           <div class='StateClearGreen'>StateClearGreen</div>
-          <div class='TechTools'><TechTools /></div>
-          <div class='FurtherEduc'>FurtherEduc</div>
+          <div class='TechTools'>
+            <TechTools />
+          </div>
+          <div class='FurtherEduc'><FurtherEduc /></div>
         </div>
       </Router>
     </React.Fragment>

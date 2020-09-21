@@ -29,7 +29,7 @@ function TechTools() {
           </li>
         </ul>
       </table>
-      <p>
+      <p className="OnlineCode">
         Online coding courses: Udemy, Edx, Free CodeCamp, Youtube, Codeacademy,
         etc.
       </p>

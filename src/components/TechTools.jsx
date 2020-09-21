@@ -3,8 +3,8 @@ import './TechTools.css';
 
 function TechTools() {
   return (
-    <div>
-      <p className="TechTitle">Technology, software and tooling experience</p>
+    <div className='TechSection'>
+      <p className='TechTitle'>Technology, software and tooling experience</p>
       <table>
         <ul>
           <li>HTML/CSS</li>

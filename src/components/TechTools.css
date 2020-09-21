@@ -1,10 +1,19 @@
-.TechTitle {
+.TechSection {
   color: #fff;
+  width: 300px;
+  margin: auto;
+  list-style-type: circle;
+}
+
+.TechTitle {
 }
 
 ul {
   font-size: 0.7em;
-  list-style-type: disc;
   width: 100px;
   text-align: left;
+}
+
+li {
+
 }

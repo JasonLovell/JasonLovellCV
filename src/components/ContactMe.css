@@ -6,13 +6,17 @@ section {
   display: table;
 }
 
-ul {
+li {
   list-style-type: none;
+}
+
+ul {
   margin: 0;
   padding: 0;
 }
 
 .itemIcon {
+  display: block;
   border-radius: 50%;
   float: left;
   margin: 20px 0 0 60px;
@@ -22,11 +26,10 @@ ul {
 }
 
 .itemText {
-  font-size: 1.3em;
-  display: block;
+  font-size: 1.4em;
+  font-weight: 600;
   color: #fff;
   text-align: left;
-  padding: 16px;
-  text-decoration: none;
-  margin-left: 120px;
+  padding-top: 20px;
+  margin-left: 140px;
 }

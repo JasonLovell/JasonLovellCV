@@ -19,23 +19,23 @@ function ContactMe() {
             <Button className='itemIcon'>
               <FontAwesomeIcon className='fa-lg' icon={faGlobeEurope} />
             </Button>
-            </li>
-            <li className='itemText'>
-              <div>lovelldigital.com</div>
-              <div>contact@lovelldigital.com</div>
+          </li>
+          <li className='itemText'>
+            <div>lovelldigital.com</div>
+            <div>contact@lovelldigital.com</div>
           </li>
         </ul>
+
         <ul className='horizontal-list'>
           <li>
             <Button className='itemIcon'>
               <FontAwesomeIcon className='fa-lg' icon={faMobileAlt} />
             </Button>
-            </li>
-            <li className='itemText'>
-              <div>(01268) 733 530</div>
-              <div>(0) 7887 592 013</div>
-            </li>
-          
+          </li>
+          <li className='itemText'>
+            <div>(01268)&nbsp;733&nbsp;530</div>
+            <div>(0)&nbsp;7887&nbsp;592&nbsp;013</div>
+          </li>
         </ul>
       </table>
     </section>

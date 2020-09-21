@@ -1,0 +1,10 @@
+.TechTitle {
+  color: #fff;
+}
+
+ul {
+  font-size: 0.7em;
+  list-style-type: disc;
+  width: 100px;
+  text-align: left;
+}

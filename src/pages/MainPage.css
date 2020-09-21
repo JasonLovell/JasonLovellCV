@@ -1,86 +1,79 @@
 /*
 colours:
-LIGHT GREEN = #19A8A7
-LIGHT GREEN/gray = #29434F
-LIGHT BLUE/green = #43525D
-WHITE = #ffffff
-DARK GRAY = #333333
+#58BFBD light green
+#5E727C gray
+#359899 mixed green gray
+#253237 TEXTGRAY
 */
 
-/*  COLUMN SETUP  */
-.col {
-  display: block;
-  float: left;
-  margin: 1% 0 1% 0%;
-}
-.col:first-child {
-  margin-left: 0;
-}
-
-/*  GROUPING  */
-.group:before,
-.group:after {
-  content: '';
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  zoom: 1; /* For IE 6/7 */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 1.1fr 4.3fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    'ContactDetails CvTitle ProfilePic'
+    'BackGroundMix NameText ClearGreen'
+    'StatementText StatementText StatementText'
+    'TechTools FurtherEduc FurtherEduc';
 }
 
-/*  GRID OF THREE  */
-.span_3_of_3 {
-  width: 100%;
-}
-.span_2_of_3 {
-  width: 66.66%;
-}
-.span_1_of_3 {
-  width: 33.33%;
+.ContactDetails {
+  grid-area: ContactDetails;
+  height: auto;
+  background: #5e727c;
 }
 
-/* Contact Section Design*/
-.leftContact {
-  background-color: #19a8a7;
-  height: 250px;
+.CvTitle {
+  grid-area: CvTitle;
+  height: auto;
+  background: #fff;
 }
 
-.middleContact {
-  background-color: #ffffff;
-  height: 250px;
+.ProfilePic {
+  grid-area: ProfilePic;
+  height: auto;
+  background: #fff;
 }
 
-.rightContact {
-  background-color: #ffffff;
-  height: 250px;
+.BackGroundMix {
+  grid-area: BackGroundMix;
+  height: auto;
+  background: #359899;
 }
 
-/* Statement Section Design*/
-.leftStatement {
-  background-color: #19a8a7;
-  height: 250px;
+.NameText {
+  grid-area: NameText;
+  height: auto;
+  background: #58bfbd;
 }
 
-.middleStatement {
-  background-color: #19a8a7;
-  height: 250px;
+.ClearGreen {
+  grid-area: ClearGreen;
+  height: auto;
+  background: #58bfbd;
 }
 
-.rightStatement {
-  background-color: #19a8a7;
-  height: 250px;
+.StatementText {
+  grid-area: StatementText;
+  height: auto;
+  background: #359899;
 }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 680px) {
-  .col {
-    margin: 1% 0 1% 0%;
-  }
-  .span_3_of_3,
-  .span_2_of_3,
-  .span_1_of_3 {
-    width: 100%;
-  }
+/* .StateClearGreen {
+  grid-area: StateClearGreen;
+  height: auto;
+  background: #58bfbd;
+} */
+
+.TechTools {
+  grid-area: TechTools;
+  height: auto;
+  background: #5e727c;
+}
+
+.FurtherEduc {
+  grid-area: FurtherEduc;
+  height: auto;
+  background: #fff;
 }

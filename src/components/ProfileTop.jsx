@@ -5,7 +5,7 @@ import './ProfileTop.css';
 function ProfileTop() {
   return (
     <div>
-      <img className='CvProfile' src={profile} alt='Profile' width='200' />
+      <img className='CvProfile' src={profile} alt='Profile' width='230' />
     </div>
   );
 }

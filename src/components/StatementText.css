@@ -1,0 +1,23 @@
+.StatementText {
+  background-color: #fff;
+  padding: 0 10px;
+  width: auto;
+  background-color: #58bfbd;
+}
+
+article {
+  background-color: #fff;
+  padding: 20px 50px;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.StateTitle {
+  font-weight: 900;
+  font-size: 1.8em;
+  font-stretch: condensed;
+}
+
+.TextBox {
+  width: auto;
+}

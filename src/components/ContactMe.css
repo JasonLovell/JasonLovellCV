@@ -1,62 +1,32 @@
-.textBlock {
-  display: inline-block;
-  font-size: 10px;
-  color: #fff;
-}
-
 section {
-  width: 250px;
-  text-align: left;
+  margin: 10% auto;
 }
 
-.btn {
-  margin-top: 5px;
+.table {
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.itemIcon {
   border-radius: 50%;
-  vertical-align: middle;
+  float: left;
+  margin: 20px 0 0 60px;
+  background-color: #fff;
+  border: 5px solid #fff;
   color: #000;
-  border: 3px solid #fff;
-  background-color: #fff !important;
 }
 
-.btn.itemThree {
-  margin-left: 10px;
-  margin-right: 8px;
-  border-radius: 50%;
-  margin-top: -10px;
-  vertical-align: middle;
-  color: #000;
-  border: none;
-  background-color: #fff !important;
-}
-
-.item {
-  margin: 0 10px;
-  display: inline;
-  vertical-align: middle;
-}
-
-.itemOneText {
-  
-  margin: 5px;
-  margin-top: 10px;
-  display: inline-block;
-  vertical-align: middle;
+.itemText {
+  font-size: 1.3em;
+  display: block;
   color: #fff;
-  border: 3px solid #000;
-  background-color: #000 !important;
-}
-
-.itemTwoText {
-  margin: 10px;
-  margin-top: 14px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.itemTwo {
-  margin: 10px;
-  margin-top: 0px;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 1.2em;
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
+  margin-left: 120px;
 }

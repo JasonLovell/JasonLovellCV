@@ -8,6 +8,10 @@ import ContactPage from './ContactPage';
 import ContactMe from '../components/ContactMe';
 import CvSection from '../components/CvSection';
 import ProfileTop from '../components/ProfileTop';
+import JldLink from '../components/JldLink';
+import NameTitle from '../components/NameTitle';
+import StatementText from '../components/StatementText';
+import TechTools from '../components/TechTools';
 
 function MainPage() {
   return (
@@ -19,16 +23,30 @@ function MainPage() {
           <Route path='/AboutPage' component={AboutPage} />
           <Route path='/ContactPage' component={ContactPage} />
         </Switch>
-        <div className='section group'>
-          <div className='col span_1_of_3 leftContact'>
+
+        <div class='grid-container'>
+          <div class='ContactDetails'>
             <ContactMe />
           </div>
-          <div className='col span_1_of_3 middleContact'>
+          <div class='CvTitle'>
             <CvSection />
           </div>
-          <div className='col span_1_of_3 rightContact'>
+          <div class='ProfilePic'>
             <ProfileTop />
           </div>
+          <div class='BackGroundMix'>
+            <JldLink />
+          </div>
+          <div class='NameText'>
+            <NameTitle />
+          </div>
+          <div class='ClearGreen'>ClearGreen</div>
+          <div class='StatementText'>
+            <StatementText />
+          </div>
+          <div class='StateClearGreen'>StateClearGreen</div>
+          <div class='TechTools'><TechTools /></div>
+          <div class='FurtherEduc'>FurtherEduc</div>
         </div>
       </Router>
     </React.Fragment>

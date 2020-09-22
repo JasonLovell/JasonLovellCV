@@ -34,8 +34,9 @@ table {
 
 .WebDevBlock {
   width: 300px;
+  line-height: 1em;
   background-color: #359899;
-  padding: 5px;
+  padding: 15px;
   font-size: 1.2em;
   margin-top: 50px;
 }

@@ -82,7 +82,7 @@ function FurtherEduc() {
         <p className='FurtherItemText'>
           <p>WORK EXPERIENCE</p>
         </p>
-        <div class='vl' />
+        <div class='vl2' />
         <div className='EducationTextBlock'>
           <p className='EduName'>Photographer, Web &amp; Graphic designer</p>
           <p className='EduDetail'>

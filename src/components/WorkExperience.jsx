@@ -1,27 +1,27 @@
 import React from 'react';
-import './FurtherEduc.css';
+import './WorkExperience.css';
 import {
-  faGraduationCap,
   faCalendarAlt,
   faSchool,
+  faBriefcase,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function FurtherEduc() {
+function WorkExp() {
   return (
     <React.Fragment>
-      <div className='EduBlock'>
-        <p className='EduTitle'>
+      <div className='WorkBlock'>
+        <p className='WorkTitle'>
           <FontAwesomeIcon
-            className='fa-lg ItemIconLarge'
-            icon={faGraduationCap}
+            className='fa-lg ItemIconLarge2'
+            icon={faBriefcase}
             size='2x'
           />
-          <div class='vl'></div> FURTHER EDUCATION
+          <div class='vl2'></div> WORK EXPERIENCE
         </p>
 
         <div className='EducationDetails'>
-          <p className='EduName'>PHOTOGRAPHY INSTITUTE</p>
+          <p className='EduName'>PHOTOGRAPHER, WEB &amp; GRAPHIC DESIGNER</p>
           <p className='EduDetail'>
             <FontAwesomeIcon
               className='fa-lg ItemIcon'
@@ -85,4 +85,4 @@ function FurtherEduc() {
   );
 }
 
-export default FurtherEduc;
+export default WorkExp;

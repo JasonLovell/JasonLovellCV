@@ -8,8 +8,8 @@ colours:
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 0.5fr 1.1fr 4.3fr;
+  grid-template-columns: repeat(auto-fit, min-max(30%, 1fr));
+  grid-template-rows: 1fr 0.5fr 1fr 4fr;
   gap: 0px 0px;
   grid-template-areas:
     'ContactDetails CvTitle ProfilePic'
@@ -20,54 +20,45 @@ colours:
 
 .ContactDetails {
   grid-area: ContactDetails;
-  height: auto;
-  background: #5e727c;
+  background-color: #5e727c;
 }
 
 .CvTitle {
   grid-area: CvTitle;
-  height: auto;
   background: #fff;
 }
 
 .ProfilePic {
   grid-area: ProfilePic;
-  height: auto;
   background: #fff;
 }
 
 .BackGroundMix {
   grid-area: BackGroundMix;
-  height: auto;
   background: #359899;
 }
 
 .NameText {
   grid-area: NameText;
-  height: auto;
   background: #58bfbd;
 }
 
 .ClearGreen {
   grid-area: ClearGreen;
-  height: auto;
   background: #58bfbd;
 }
 
 .StatementText {
   grid-area: StatementText;
-  height: auto;
   background: #359899;
 }
 
 .TechTools {
   grid-area: TechTools;
-  height: auto;
   background: #5e727c;
 }
 
 .FurtherEduc {
   grid-area: FurtherEduc;
-  height: auto;
   background: #fff;
 }

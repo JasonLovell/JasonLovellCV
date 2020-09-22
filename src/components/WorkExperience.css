@@ -1,36 +1,28 @@
-/*
-colours:
-#58BFBD light green
-#5E727C gray
-#359899 mixed green gray
-#253237 TEXTGRAY
-*/
-
-.EduBlock {
+.WorkBlock {
   padding: 50px 80px;
-  width: 550px;
-  margin: auto;
+  width: 850px;
+  margin-left: 75px;
 }
 
-.ItemIconLarge {
+.ItemIconLarge2 {
   border-radius: 50%;
   background-color: #000;
   border: 15px solid #000;
   color: #fff;
-  margin-right: 20px;
+  margin-left: -310 px;
 }
 
-.vl {
+.vl2 {
   position: absolute;
   border-left: 5px solid #000;
-  height: 260px;
-  margin-left: 70px;
+  height: 600px;
+  margin-left: 400px;
 }
 
-.EduTitle {
+.WorkTitle {
   font-weight: 900;
   font-size: 1.8em;
-  margin-left: -140px;
+  margin-left: -410px;
 }
 
 .EducationDetails {

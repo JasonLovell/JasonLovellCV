@@ -3,10 +3,12 @@ import './CvSection.css';
 
 function CvSection() {
   return (
-      <div className="SectionBox">
+    <React.Fragment>
+      <div className='CvSectionBox'>
         <p className='CvText'>Curriculum</p>
         <p className='CvText'>Vitae</p>
       </div>
+    </React.Fragment>
   );
 }
 

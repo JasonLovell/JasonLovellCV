@@ -5,7 +5,7 @@ function StatementText() {
   return (
     <div className='StatementText'>
       <article>
-        <p className='StateTitle'>STATEMENT</p>
+        <h4 className='StateTitle'>STATEMENT</h4>
         <p className='TextBox'>
           Hi, I'm Jason and I'm eager to gain some commercial experience in the
           field of web design and web development within either a front-end or

@@ -10,9 +10,9 @@ function ContactMe() {
       <div className="ContactBlock">
       <div className='horizontal-list'>
         <p>
-          <Button className='itemIcon'>
+          <p className='itemIcon'>
             <FontAwesomeIcon className='fa-lg' icon={faGlobeEurope} />
-          </Button>
+          </p>
         </p>
         <p className='itemText'>
           <div>lovelldigital.com</div>
@@ -22,14 +22,13 @@ function ContactMe() {
 
       <div className='horizontal-list'>
         <p>
-          <Button className='itemIcon'>
+          <p className='itemIcon'>
             <FontAwesomeIcon className='fa-lg' icon={faMobileAlt} />
-          </Button>
+          </p>
         </p>
-        <p className='itemText'>
-          <div>(01268)&nbsp;733&nbsp;530</div>
-          <div>(0)&nbsp;7887&nbsp;592&nbsp;013</div>
-        </p>
+        <li className='itemText'>
+          <div>(01268)&nbsp;733&nbsp;530<br />(0)&nbsp;7887&nbsp;592&nbsp;013</div>
+        </li>
       </div>
       </div>
     </React.Fragment>

@@ -3,11 +3,11 @@ import './JldLink.css';
 
 function JldLink() {
   return (
-    <div>
-      <a href='https://lovelldigital.com' className='JldLink'>
-        <h2>https://lovelldigital.com</h2>
+    <React.Fragment>
+      <a href='https://lovelldigital.com'>
+        <p  className='JldLink'>https://lovelldigital.com</p>
       </a>
-    </div>
+    </React.Fragment>
   );
 }
 

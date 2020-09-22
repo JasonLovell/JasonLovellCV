@@ -1,14 +1,5 @@
 .JldLink {
   color: #29434f;
-}
-
-h2 {
-  margin: 10% auto;
-  text-decoration: none;
-}
-
-@media only screen and (max-width: 680px) {
-  h2 {
-    margin: 100px auto;
-  }
+  font-size: 1.3em;
+  margin-top: 14%;
 }

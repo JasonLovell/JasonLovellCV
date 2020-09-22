@@ -1,18 +1,15 @@
 .MainTitle {
   color: #fff;
-  font-weight: 700;
   font-size: 3em;
-  font-stretch: extra-condensed;
   margin-top: 20px;
-  margin-left: 30%;
+  margin-left: 80px;
   line-height: 80%;
 }
 
 .SecondaryTitle {
   color: #fff;
-  margin-left: 30%;
-  font-weight: 800;
   font-size: 1.2em;
-  font-stretch: extra-condensed;
   line-height: 90%;
+  margin-left: 80px;
+  margin-bottom: 30px;
 }

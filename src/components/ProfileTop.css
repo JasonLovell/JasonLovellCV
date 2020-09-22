@@ -1,6 +1,5 @@
 .CvProfile {
-  margin-top: 13%;
-  margin-bottom: -40%;
-  position:relative;
+  position: relative;
+  top: 70px;
   z-index: 1;
 }

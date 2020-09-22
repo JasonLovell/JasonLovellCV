@@ -3,10 +3,10 @@ import './NameTitle.css';
 
 function NameTitle() {
   return (
-    <div>
-        <p className="MainTitle">Jason Lovell</p>
-        <p className="SecondaryTitle">Website Designer &amp; Developer</p>
-    </div>
+    <React.Fragment>
+      <p className='MainTitle'>Jason Lovell</p>
+      <p className='SecondaryTitle'>Website Designer &amp; Developer</p>
+    </React.Fragment>
   );
 }
 

@@ -1,6 +1,8 @@
-.SectionBox {
+.CvSectionBox {
+  margin: 50px auto 0 80px;
 }
 
 .CvText {
-  font-size: 3em;
+  font-size: 4em;
+  line-height: 80%;
 }

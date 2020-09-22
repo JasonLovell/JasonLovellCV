@@ -20,7 +20,6 @@ function FurtherEduc() {
           <p>&nbsp;&nbsp;&nbsp;FURTHER EDUCATION</p>
         </p>
         <div class='vl' />
-
         <div className='EducationTextBlock'>
           <p className='EduName'>PHOTOGRAPHY INSTITUTE</p>
           <p className='EduDetail'>
@@ -84,7 +83,6 @@ function FurtherEduc() {
           <p>WORK EXPERIENCE</p>
         </p>
         <div class='vl' />
-
         <div className='EducationTextBlock'>
           <p className='EduName'>Photographer, Web &amp; Graphic designer</p>
           <p className='EduDetail'>
@@ -108,7 +106,6 @@ function FurtherEduc() {
             editing, Client safety and care. Managing all legal and financial
             aspects.
           </p>
-
           <p className='EduName'>FABRICATOR &amp; MACHINE OPERATOR</p>
           <p className='EduDetail'>
             <FontAwesomeIcon

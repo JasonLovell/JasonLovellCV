@@ -35,6 +35,12 @@ function TechTools() {
           <br />
           Edx, Free CodeCamp, Youtube, Codeacademy, etc.
         </p>
+        <div className='WebDevBlock'>
+          <p>
+            I'm also a member of the Essex Web Developers monthly meetups.
+            https://www.meetup.com/ EssexWebDevelopers/
+          </p>
+        </div>
       </div>
     </React.Fragment>
   );

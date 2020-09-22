@@ -13,7 +13,6 @@ import NameTitle from '../components/NameTitle';
 import StatementText from '../components/StatementText';
 import TechTools from '../components/TechTools';
 import FurtherEduc from '../components/FurtherEduc';
-import WorkEx from '../components/WorkExperience';
 
 function MainPage() {
   return (
@@ -27,7 +26,6 @@ function MainPage() {
         </Switch>
 
         <div class='grid-container'>
-
           <div class='ContactDetails'>
             <ContactMe />
           </div>
@@ -52,9 +50,7 @@ function MainPage() {
           </div>
           <div class='FurtherEduc'>
             <FurtherEduc />
-            <WorkEx />
           </div>
-          
         </div>
       </Router>
     </React.Fragment>

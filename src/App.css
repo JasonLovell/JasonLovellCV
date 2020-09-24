@@ -1,14 +1,37 @@
+/*
+colours:
+#58BFBD light green
+#5E727C gray
+#359899 mixed green gray
+#253237 TEXTGRAY
+*/
 .App {
   text-align: center;
 }
 
 body {
-  width: 1200px;
+  box-shadow: 5px 5px 20px #333;
+  width: 1400px;
   height: 100%;
-  margin: auto;
+  margin: 10px auto;
   font-family: 'Times New Roman';
   font-weight: 600;
   font-size: 1.2em;
-  background-color: #58bfbd;
+  /* background-color: #58bfbd; */
   padding: 10px;
+  background: linear-gradient(-45deg, #58bfbd, #85c6c7, #115657, #5e727c);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

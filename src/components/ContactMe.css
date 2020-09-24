@@ -8,7 +8,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  padding: 4%;
+  padding: 3%;
   background-color: #fff;
   color: #000;
   border: none;
@@ -16,8 +16,25 @@
   float: left;
 }
 
+.itemTextEmail {
+  color: #fff;
+  text-align: left;
+  position: relative;
+  display: inline;
+  top: 12px;
+}
+
 .itemText {
   text-align: left;
   position: relative;
   display: inline;
+}
+
+.itemTextEmail:hover {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-shadow: 1px 1px 5px #000;
+  text-decoration: none;
+  transition: 0.3s;
 }

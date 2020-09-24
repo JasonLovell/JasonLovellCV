@@ -1,44 +1,56 @@
 import React from 'react';
 import './TechTools.css';
+import ToastTech from './ToastTech';
 
 function TechTools() {
   return (
     <React.Fragment>
       <div className='TechSection'>
-        <p className='TechTitle'>Technology, software and tooling experience</p>
+        <p className='TechTitle'>TECHNOLOGY, SOFTWARE AND TOOLING EXPERIENCE</p>
         <table>
           <ul>
-            <li>HTML/CSS</li>
-            <li>JAVASCRIPT/JQUERY</li>
-            <li>CSS AND PREPROCESSING</li>
-            <li>WORDPRESS</li>
-            <li>FRAMEWORKS AND LIBRARIES</li>
-            <li>VERSION CONTROL/GIT</li>
-            <li>VSCODE, ATOM</li>
-            <li>RESPONSIVE DESIGN</li>
-            <li>TESTING/DEBUGGING</li>
-            <li>BROWSER DEVELOPER TOOLS</li>
-            <li>BUILDING AND AUTOMATION</li>
-            <li>ANALYTICS AND SEO</li>
-            <li>COMMAND LINE</li>
-            <li>PHP AND MYSQL DATABASE</li>
-            <li>REACT JS, WEBPACK, REDUX</li>
-            <li>NPM, API's, SLACK</li>
-            <li>
-              ADOBE CC (Photoshop, illustrator, Lightroom, Indesign, XD, Premier
-              Pro)
-            </li>
+            <h4>Languages</h4>
+            <li>HTML</li>
+            <li>CSS / SASS</li>
+            <li>JAVASCRIPT</li>
+            <li>PHP AND MYSQL</li>
+            <br />
+            <h4>Frameworks</h4>
+            <li>BOOTSTRAP</li>
+            <li>REACT JS</li>
+            <br />
+            <h4>Libraries/API</h4>
+            <li>JQUERY</li>
+            <li>REDUX</li>
+            <li>NODE.JS</li>
+            <br />
+            <h4>Libraries/API</h4>
+            <li>JQUERY</li>
+            <li>REDUX</li>
+            <li>NODE.JS</li>
+            <br />
+            <h4>Editors/IDE</h4>
+            <li>VSCODE, SUBLIME</li>
+            <li>ATOM, BRACKETS</li>
+            <br />
+            <h4>Platforms</h4>
+            <li>WINDOWS / MacOS</li>
+            <li>ATOM, BRACKETS</li>
+            <br />
+            <div className='ToastTechButton'>
+            <ToastTech/>
+            </div>
           </ul>
         </table>
-        <p className='OnlineCode'>
-          Online coding courses: Udemy,
-          <br />
-          Edx, Free CodeCamp, Youtube, Codeacademy, etc.
-        </p>
         <div className='WebDevBlock'>
-          <p>
-            I'm also a member of the Essex Web Developers monthly meetups.
-            https://www.meetup.com/ EssexWebDevelopers/
+          <p className='MeetupText'>
+            <a
+              href='https://www.meetup.com/EssexWebDevelopers/'
+              target='_blank'
+            >
+              I'm also a member of the Essex Web Developers monthly meetups.
+              https://www.meetup.com/ EssexWebDevelopers/
+            </a>
           </p>
         </div>
       </div>

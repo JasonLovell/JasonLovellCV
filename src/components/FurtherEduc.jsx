@@ -37,7 +37,12 @@ function FurtherEduc() {
             2011 - 2012
           </p>
           <p className='EduEmail'>
-            (https://www.thephotographyinstitue.co.uk/)
+            <a
+              href='https://www.thephotographyinstitute.co.uk/'
+              target='_blank'
+            >
+              (https://www.thephotographyinstitue.co.uk/)
+            </a>
           </p>
           <p className='EduName'>'A' LEVEL ART &amp; DESIGN</p>
           <p className='EduDetail'>
@@ -55,7 +60,12 @@ function FurtherEduc() {
             1988 - 1990
           </p>
           <p className='EduEmail'>
-            (southessex.uk/news/farewell-thurrock-tech)
+            <a
+              href='https://www.southessex.ac.uk/news/farewell-thurrock-tech'
+              target='_blank'
+            >
+              (southessex.uk/news/farewell-thurrock-tech)
+            </a>
           </p>
           <p className='EduName'>BTEC BUSINESS &amp; ENTERPRISE</p>
           <p className='EduDetail'>
@@ -72,7 +82,11 @@ function FurtherEduc() {
             />
             1986 - 1988
           </p>
-          <p className='EduEmail'>(https://www.uspcollegeac.uk/)</p>
+          <p className='EduEmail'>
+            <a href='https://www.uspcollege.ac.uk/' target='_blank'>
+              (https://www.uspcollegeac.uk/)
+            </a>
+          </p>
         </div>
       </div>
       <div className='FurtherEduBlock'>
@@ -99,13 +113,18 @@ function FurtherEduc() {
             />
             2007 - Current
           </p>
-          <p className='EduEmail'>(https://lovelldigital.com/)</p>
+          <p className='EduEmail'>
+            <a href='https://lovelldigital.com/' target='_blank'>
+              (https://lovelldigital.com/)
+            </a>
+          </p>
           <p className='WETextTitle'>Portrait and wedding photographer.</p>
           <p className='WETextText'>
             <strong>Job role included:</strong> Marketing, Photography and
             editing, Client safety and care. Managing all legal and financial
             aspects.
           </p>
+          <br />
           <p className='EduName'>FABRICATOR &amp; MACHINE OPERATOR</p>
           <p className='EduDetail'>
             <FontAwesomeIcon
@@ -121,13 +140,18 @@ function FurtherEduc() {
             />
             2016 - 2020
           </p>
-          <p className='EduEmail'>(https://fortressaluminium.com/)</p>
+          <p className='EduEmail'>
+            <a href='https://fortressaluminium.com/' target='_blank'>
+              (https://fortressaluminium.com/)
+            </a>
+          </p>
           <p className='WETextTitle'>Aluminium door &amp; window fabricator.</p>
           <p className='WETextText'>
             <strong>Job role included:</strong> CNC (computer numerical control)
             operation, preparation &amp; routing of all factory projects.
             Assembly, delivery and servicing.
           </p>
+          <br />
           <p className='EduName'>SOLE TRADER - CAFÉ OWNER</p>
           <p className='EduDetail'>
             <FontAwesomeIcon
@@ -143,7 +167,11 @@ function FurtherEduc() {
             />
             2004 - 2015
           </p>
-          <p className='EduEmail'>(https://www.facebook.com/Shotgatecafe/)</p>
+          <p className='EduEmail'>
+            <a href='https://www.facebook.com/Shotgatecafe/' target='_blank'>
+              (https://www.facebook.com/Shotgatecafe/)
+            </a>
+          </p>
           <p className='WETextTitle'>Restaurant manager and Chef.</p>
           <p className='WETextText'>
             <strong>Job role included:</strong> Responsible for leading and

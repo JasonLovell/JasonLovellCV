@@ -7,46 +7,47 @@ colours:
 */
 
 .FurtherEduBlock {
-  width: 550px;
+  width: 650px;
   margin: 50px auto;
 }
 
 .FurtherEduIcon {
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
   float: left;
   border-radius: 50%;
-  padding: 20px;
+  padding: 25px;
   background-color: #000;
   color: #fff;
   border: none;
-  margin-right: 0px;
+  margin-right: -250px;
   margin-top: -5px;
 }
 
 .vl {
   position: absolute;
   border-left: 5px solid #000;
-  height: 255px;
-  margin-left: 34px;
+  height: 250px;
+  margin-left: 36px;
 }
 
 .vl2 {
   position: absolute;
   border-left: 5px solid #000;
-  height: 600px;
-  margin-left: 34px;
+  height: 680px;
+  margin-left: 36px;
 }
 
 .FurtherItemText {
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: bolder;
 }
 
 .EducationTextBlock {
+  width: 470px;
   text-align: left;
   margin-left: 135px;
-  line-height: 0.8rem;
+  line-height: 0.7rem;
   font-size: 0.9em;
   font-weight: bold;
 }
@@ -58,7 +59,8 @@ colours:
 }
 
 .EduDetail,
-.EduEmail {
+.EduEmail 
+a{
   color: #359899;
 }
 
@@ -74,6 +76,6 @@ colours:
 
 .WETextText {
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.25em;
   line-height: 1.1em;
 }

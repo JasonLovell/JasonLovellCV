@@ -7,8 +7,22 @@
 
 .TechTitle {
   text-transform: uppercase;
-  margin: 30px 20px 30px;
+  margin: 30px 5px 30px 20px;
   text-align: left;
+}
+
+.TechTitle2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-left: -20px;
+  float: left;
+}
+
+.TechTitle2:hover {
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-left: -20px;
+  float: left;
 }
 
 table {
@@ -32,6 +46,12 @@ table {
   font-weight: 500;
 }
 
+h4 {
+  color: #fff;
+  text-decoration: underline;
+  text-align: left;
+}
+
 .WebDevBlock {
   width: 300px;
   line-height: 1em;
@@ -39,4 +59,21 @@ table {
   padding: 15px;
   font-size: 1.2em;
   margin-top: 50px;
+}
+
+.WebDevBlock:hover {
+  margin-top: 38px;
+  border-radius: 30%;
+  border: 10px solid #359899;
+  transition: 2s;
+  text-shadow: 2px 2px 5px #333;
+}
+
+.MeetupText a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.ToastTechButton:hover {
+  text-shadow: 1px 1px 10px #000 !important;
 }

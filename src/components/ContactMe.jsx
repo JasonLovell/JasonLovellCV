@@ -8,30 +8,35 @@ function ContactMe() {
     <React.Fragment>
       <div className='ContactBlock'>
         <div className='horizontal-list'>
-          <p>
+          <div className='horizontal-list'>
+            <p>
+              <p className='itemIcon'>
+                <FontAwesomeIcon className='fa-lg' icon={faMobileAlt} />
+              </p>
+            </p>
+            <li className='itemText'>
+              <div>
+                (01268)&nbsp;733&nbsp;530
+                <br />
+                (0)&nbsp;7887&nbsp;592&nbsp;013
+              </div>
+            </li>
+          </div>
+          <br />
+          <div className='EmailMe'>
             <p className='itemIcon'>
               <FontAwesomeIcon className='fa-lg' icon={faGlobeEurope} />
             </p>
-          </p>
-          <p className='itemText'>
-            <div>lovelldigital.com</div>
-            <div>contact@lovelldigital.com</div>
-          </p>
-        </div>
-
-        <div className='horizontal-list'>
-          <p>
-            <p className='itemIcon'>
-              <FontAwesomeIcon className='fa-lg' icon={faMobileAlt} />
-            </p>
-          </p>
-          <li className='itemText'>
-            <div>
-              (01268)&nbsp;733&nbsp;530
-              <br />
-              (0)&nbsp;7887&nbsp;592&nbsp;013
-            </div>
-          </li>
+          </div>
+          <div>
+            <a
+              href='https://lovelldigital.com/contact'
+              target='_blank'
+              className='itemTextEmail'
+            >
+              <p>contact@lovelldigital.com</p>
+            </a>
+          </div>
         </div>
       </div>
     </React.Fragment>

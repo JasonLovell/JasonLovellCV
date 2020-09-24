@@ -4,8 +4,10 @@ import './NameTitle.css';
 function NameTitle() {
   return (
     <React.Fragment>
-      <p className='MainTitle'>Jason Lovell</p>
-      <p className='SecondaryTitle'>Website Designer &amp; Developer</p>
+      <div className='PageBlock'>
+      <h1 className='MainTitle'>Jason Lovell</h1>
+      <div className='SecondaryTitle'>Website Designer &amp; Developer</div>
+      </div>
     </React.Fragment>
   );
 }

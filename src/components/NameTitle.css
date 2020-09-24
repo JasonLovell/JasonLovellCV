@@ -1,9 +1,10 @@
 .MainTitle {
   color: #fff;
-  font-size: 3em;
-  margin-top: 20px;
+  font-size: 3.2em;
+  margin-top: 50px;
   margin-left: 80px;
   line-height: 80%;
+  margin-bottom: -10px;
 }
 
 .SecondaryTitle {
@@ -11,5 +12,36 @@
   font-size: 1.2em;
   line-height: 90%;
   margin-left: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.MainTitle,
+.SecondaryTitle {
+  animation: slideUp 1.75s 0.5s cubic-bezier(0.17, 0.88, 0.32, 1.27) both,
+    fadeIn 0.25s 0.5s ease-in both;
+}
+
+.MainTitle:hover {
+  color: fff;
+  letter-spacing: 0.4rem;
+  text-shadow: 1px 1px 5px #333;
+  transition: 2s;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(200%);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

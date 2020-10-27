@@ -17,21 +17,16 @@ function ToastTech() {
         />{' '}
         <ul>
           <li>
-            ADOBE CC
+          Adobe Creative Cloud
             <br />
             <em>(Ps, Ai, Lr, Id, XD, Premier Pro)</em>
           </li>
-          <li>WORDPRESS</li>
-          <li>VERSION CONTROL/GIT</li>
-          <li>RESPONSIVE DESIGN</li>
-          <li>TESTING/DEBUGGING</li>
-          <li>BROWSER DEVELOPER TOOLS</li>
-          <li>BUILDING AND AUTOMATION</li>
-          <li>ANALYTICS AND SEO</li>
-          <li>COMMAND LINE</li>
-          <li>MYSQL DATABASE</li>
-          <li>NPM,WEBPACK</li>
-          <li>SLACK</li>
+          <li>WordPress</li>
+          <li>Responsive Web Design</li>
+          <li>Chrome DevTools</li>
+          <li>Google Analytics</li>
+          <li>Search Engine Optimization (SEO)</li>
+          <li>CodePen / Slack</li>
         </ul>
       </p>,
       {

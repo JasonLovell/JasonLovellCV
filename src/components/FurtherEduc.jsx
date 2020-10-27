@@ -44,6 +44,7 @@ function FurtherEduc() {
               (https://www.thephotographyinstitue.co.uk/)
             </a>
           </p>
+          <hr />
           <p className='EduName'>'A' LEVEL ART &amp; DESIGN</p>
           <p className='EduDetail'>
             <FontAwesomeIcon
@@ -67,6 +68,7 @@ function FurtherEduc() {
               (southessex.uk/news/farewell-thurrock-tech)
             </a>
           </p>
+          <hr />
           <p className='EduName'>BTEC BUSINESS &amp; ENTERPRISE</p>
           <p className='EduDetail'>
             <FontAwesomeIcon
@@ -105,7 +107,7 @@ function FurtherEduc() {
               icon={faCity}
               size='1x'
             />
-            LOVELL PHOTOGRAPHY &nbsp;&nbsp;&nbsp;
+            Lovell Photography &nbsp;&nbsp;&nbsp;
             <FontAwesomeIcon
               className='fa-lg ItemIcon'
               icon={faCalendarAlt}
@@ -120,10 +122,11 @@ function FurtherEduc() {
           </p>
           <p className='WETextTitle'>Portrait and wedding photographer.</p>
           <p className='WETextText'>
-            <strong>Job role included:</strong> Marketing, Photography and
-            editing, Client safety and care. Managing all legal and financial
+            <strong>Job role included:</strong> Marketing, photography and
+            editing, client safety and care. Managing all legal and financial
             aspects.
           </p>
+          <hr />
           <br />
           <p className='EduName'>FABRICATOR &amp; MACHINE OPERATOR</p>
           <p className='EduDetail'>
@@ -132,7 +135,7 @@ function FurtherEduc() {
               icon={faCity}
               size='1x'
             />
-            FORTRESS ALUMINIUM &nbsp;&nbsp;&nbsp;
+            Fortress Aluminium &nbsp;&nbsp;&nbsp;
             <FontAwesomeIcon
               className='fa-lg ItemIcon'
               icon={faCalendarAlt}
@@ -151,6 +154,7 @@ function FurtherEduc() {
             operation, preparation &amp; routing of all factory projects.
             Assembly, delivery and servicing.
           </p>
+          <hr />
           <br />
           <p className='EduName'>SOLE TRADER - CAFÉ OWNER</p>
           <p className='EduDetail'>
@@ -159,7 +163,7 @@ function FurtherEduc() {
               icon={faCity}
               size='1x'
             />
-            WICKFORD DINER &nbsp;&nbsp;&nbsp;
+            Wickford Diner &nbsp;&nbsp;&nbsp;
             <FontAwesomeIcon
               className='fa-lg ItemIcon'
               icon={faCalendarAlt}
@@ -172,10 +176,10 @@ function FurtherEduc() {
               (https://www.facebook.com/Shotgatecafe/)
             </a>
           </p>
-          <p className='WETextTitle'>Restaurant manager and Chef.</p>
+          <p className='WETextTitle'>Restaurant manager and chef.</p>
           <p className='WETextText'>
             <strong>Job role included:</strong> Responsible for leading and
-            managing the restaurant and employees. Head of Kitchen, controlling
+            managing the restaurant and employees. Head of kitchen, controlling
             and directing the food preparation process.
           </p>
         </div>

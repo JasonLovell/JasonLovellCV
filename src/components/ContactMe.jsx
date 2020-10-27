@@ -1,5 +1,5 @@
 import React from 'react';
-import { faGlobeEurope, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faGlobeEurope, faHome, faHouseDamage, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './ContactMe.css';
 
@@ -36,6 +36,15 @@ function ContactMe() {
             >
               <p>contact@lovelldigital.com</p>
             </a>
+          </div>
+          <br />
+          <div className='AddressMe'>
+            <p className='itemIcon'>
+              <FontAwesomeIcon className='fa-lg' icon={faHome} />
+            </p>
+          </div>
+          <div>
+              <p  className='AddressMeText'>35, Alicia Avenue, Wickford,<br /> Essex. SS118PH</p>
           </div>
         </div>
       </div>
